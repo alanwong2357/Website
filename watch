@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo browser-sync is starting right now 
+browser-sync start --server --files "css/*.css, images/*.png, ./*.html, js/*.js"
